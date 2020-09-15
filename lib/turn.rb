@@ -36,12 +36,10 @@ def turn(board)
   user_input = gets 
    index = input_to_index(user_input)
    if valid_move(board, index)
-    return true 
+   move(board, index)  
   else
-    return false 
+    turn(board)
   end
-    move (board, position, char = "X")
-    board[position] = char
 
 end
 
