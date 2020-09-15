@@ -41,6 +41,6 @@ def turn(board)
     return false 
   end
     board[position] = char
-    end
-end 
+end
+
   
