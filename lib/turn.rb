@@ -41,7 +41,7 @@ def turn(board)
     return false 
   end
     move (board, position, char = "X")
-  board[position] = char
+    board[position] = char
 
 end
 
