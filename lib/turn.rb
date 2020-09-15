@@ -43,5 +43,4 @@ def turn(board)
     board[position] = char
     end
 end 
-end 
   
